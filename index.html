@@ -9,6 +9,7 @@
 <meta name="description" content="岡山県吉備中央町の観光地・特産品・飲食店・祭り・宿泊情報をまとめた非公式ファンサイト「きびちゅう往来」。宇甘渓、吉川八幡宮、重森三玲記念館、ピオーネやブルーベリーなど、吉備高原の魅力をイラストとともにご紹介します。">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<style>[hidden]{display:none !important;}</style>
 </head>
 <body>
 
@@ -129,6 +130,16 @@
       </div>
 
     </div>
+    <!-- ふるさと納税広告枠 -->
+    <div class="furusato-block" hidden>
+      <span class="furusato-label">ふるさと納税で応援する（吉備中央町の返礼品）</span>
+      <div class="furusato-grid">
+        <!-- ふるさと納税アフィリエイト広告 1 ここに挿入 -->
+        <div class="furusato-slot" data-ad-slot="furusato1" hidden><div class="ad-body"></div></div>
+        <!-- ふるさと納税アフィリエイト広告 2 ここに挿入 -->
+        <div class="furusato-slot" data-ad-slot="furusato2" hidden><div class="ad-body"></div></div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -197,6 +208,14 @@
       </div>
 
     </div>
+    <!-- ふるさと納税広告枠 -->
+    <div class="furusato-block" hidden>
+      <span class="furusato-label">ふるさと納税で応援する（吉備中央町の返礼品）</span>
+      <div class="furusato-grid">
+        <!-- ふるさと納税アフィリエイト広告 3 ここに挿入 -->
+        <div class="furusato-slot" data-ad-slot="furusato3" hidden><div class="ad-body"></div></div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -232,23 +251,18 @@
   </div>
 </section>
 
-<!-- ===================== アフィリエイト広告（下部・2枠横並び） ===================== -->
-<section class="section alt-lavender">
+<!-- ===================== アフィリエイト広告（下部） ===================== -->
+<section class="section alt-lavender" hidden>
   <div class="wrap">
     <div class="section-head">
       <span class="tag">PR</span>
       <h2>広告</h2>
     </div>
-    <div class="ad-row">
+    <div class="ad-row" style="grid-template-columns:1fr;">
       <!-- アフィリエイト広告1 ここに挿入してください -->
-      <div class="ad-slot">
+      <div class="ad-slot" data-ad-slot="ad1" hidden>
         <span class="ad-label">広告</span>
-        <span class="ad-note">【アフィリエイト掲載予定】（アフィリエイト広告枠 1）</span>
-      </div>
-      <!-- アフィリエイト広告2 ここに挿入してください -->
-      <div class="ad-slot">
-        <span class="ad-label">広告</span>
-        <span class="ad-note">【アフィリエイト掲載予定】（アフィリエイト広告枠 2）</span>
+        <div class="ad-body"></div>
       </div>
     </div>
   </div>
@@ -299,5 +313,6 @@
   if (el) { el.textContent = '\u00A9 ' + yearText + ' きびちゅう往来'; }
 })();
 </script>
+<script src="ads.js" defer></script>
 </body>
 </html>

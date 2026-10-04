@@ -9,6 +9,7 @@
 <meta name="description" content="吉備中央町の四季を彩る祭りと行事をまとめてご紹介。県下三大祭りに数えられる加茂大祭と吉川八幡宮当番祭、川合神社の夏祭り、ブッポウソウ観察や宇甘渓の紅葉など、季節ごとの見どころを解説します。">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<style>[hidden]{display:none !important;}</style>
 </head>
 <body>
 
@@ -91,26 +92,29 @@
       </div>
 
     </div>
+    <!-- ふるさと納税広告枠 -->
+    <div class="furusato-block" hidden>
+      <span class="furusato-label">ふるさと納税で応援する（吉備中央町の返礼品）</span>
+      <div class="furusato-grid">
+        <!-- ふるさと納税アフィリエイト広告 4 ここに挿入 -->
+        <div class="furusato-slot" data-ad-slot="furusato4" hidden><div class="ad-body"></div></div>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- ===================== アフィリエイト広告（下部・2枠横並び） ===================== -->
-<section class="section alt-blush">
+<!-- ===================== アフィリエイト広告（下部） ===================== -->
+<section class="section alt-blush" hidden>
   <div class="wrap">
     <div class="section-head">
       <span class="tag">PR</span>
       <h2>広告</h2>
     </div>
-    <div class="ad-row">
+    <div class="ad-row" style="grid-template-columns:1fr;">
       <!-- アフィリエイト広告3 ここに挿入してください -->
-      <div class="ad-slot">
+      <div class="ad-slot" data-ad-slot="ad3" hidden>
         <span class="ad-label">広告</span>
-        <span class="ad-note">【アフィリエイト掲載予定】（アフィリエイト広告枠 3）</span>
-      </div>
-      <!-- アフィリエイト広告4 ここに挿入してください -->
-      <div class="ad-slot">
-        <span class="ad-label">広告</span>
-        <span class="ad-note">【アフィリエイト掲載予定】（アフィリエイト広告枠 4）</span>
+        <div class="ad-body"></div>
       </div>
     </div>
   </div>
@@ -161,5 +165,6 @@
   if (el) { el.textContent = '\u00A9 ' + yearText + ' きびちゅう往来'; }
 })();
 </script>
+<script src="ads.js" defer></script>
 </body>
 </html>

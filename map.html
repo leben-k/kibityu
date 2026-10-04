@@ -9,6 +9,7 @@
 <meta name="description" content="吉備中央町の主な観光地・温泉・道の駅の位置関係を、所要時間つきの模式図で紹介。各スポットの住所とGoogleマップへのリンクも掲載しています。">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<style>[hidden]{display:none !important;}</style>
 
 <style>
 .map-scroll{overflow-x:auto; background:#fff; border:1px solid var(--border-soft); border-radius:18px; padding:12px;}
@@ -252,23 +253,18 @@
   </div>
 </section>
 
-<!-- ===================== アフィリエイト広告（下部・2枠横並び） ===================== -->
-<section class="section alt-lavender">
+<!-- ===================== アフィリエイト広告（下部） ===================== -->
+<section class="section alt-lavender" hidden>
   <div class="wrap">
     <div class="section-head">
       <span class="tag">PR</span>
       <h2>広告</h2>
     </div>
-    <div class="ad-row">
-      <!-- アフィリエイト広告9 ここに挿入してください -->
-      <div class="ad-slot">
+    <div class="ad-row" style="grid-template-columns:1fr;">
+      <!-- アフィリエイト広告2 ここに挿入してください -->
+      <div class="ad-slot" data-ad-slot="ad2" hidden>
         <span class="ad-label">広告</span>
-        <span class="ad-note">【アフィリエイト掲載予定】（アフィリエイト広告枠 9）</span>
-      </div>
-      <!-- アフィリエイト広告10 ここに挿入してください -->
-      <div class="ad-slot">
-        <span class="ad-label">広告</span>
-        <span class="ad-note">【アフィリエイト掲載予定】（アフィリエイト広告枠 10）</span>
+        <div class="ad-body"></div>
       </div>
     </div>
   </div>
@@ -319,5 +315,6 @@
   if (el) { el.textContent = '\u00A9 ' + yearText + ' きびちゅう往来'; }
 })();
 </script>
+<script src="ads.js" defer></script>
 </body>
 </html>

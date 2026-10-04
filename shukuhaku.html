@@ -9,6 +9,7 @@
 <meta name="description" content="吉備中央町の宿泊施設をエリア別にご紹介。吉備高原リゾートホテル、鷺の巣温泉や小森温泉などの湯宿、天体観測ができるアストロコテージ ガリレオ、農家民泊まで。">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<style>[hidden]{display:none !important;}</style>
 </head>
 <body>
 
@@ -113,27 +114,30 @@
         <p>吉備中央町観光協会では、農家に泊まって田舎の暮らしを体験する農家民泊を紹介しています。受け入れ先や内容は観光協会の案内をご確認ください。</p>
       </div>
     </div>
+    <!-- ふるさと納税広告枠 -->
+    <div class="furusato-block" hidden>
+      <span class="furusato-label">ふるさと納税で宿泊券・体験を選ぶ</span>
+      <div class="furusato-grid">
+        <!-- ふるさと納税アフィリエイト広告 6 ここに挿入 -->
+        <div class="furusato-slot" data-ad-slot="furusato6" hidden><div class="ad-body"></div></div>
+      </div>
+    </div>
   </div>
 </section>
 
 
-<!-- ===================== アフィリエイト広告（下部・2枠横並び） ===================== -->
-<section class="section alt-lavender">
+<!-- ===================== アフィリエイト広告（下部） ===================== -->
+<section class="section alt-lavender" hidden>
   <div class="wrap">
     <div class="section-head">
       <span class="tag">PR</span>
       <h2>広告</h2>
     </div>
-    <div class="ad-row">
-      <!-- アフィリエイト広告7 ここに挿入してください -->
-      <div class="ad-slot">
+    <div class="ad-row" style="grid-template-columns:1fr;">
+      <!-- アフィリエイト広告5 ここに挿入してください -->
+      <div class="ad-slot" data-ad-slot="ad5" hidden>
         <span class="ad-label">広告</span>
-        <span class="ad-note">【アフィリエイト掲載予定】（アフィリエイト広告枠 7）</span>
-      </div>
-      <!-- アフィリエイト広告8 ここに挿入してください -->
-      <div class="ad-slot">
-        <span class="ad-label">広告</span>
-        <span class="ad-note">【アフィリエイト掲載予定】（アフィリエイト広告枠 8）</span>
+        <div class="ad-body"></div>
       </div>
     </div>
   </div>
@@ -184,5 +188,6 @@
   if (el) { el.textContent = '\u00A9 ' + yearText + ' きびちゅう往来'; }
 })();
 </script>
+<script src="ads.js" defer></script>
 </body>
 </html>
