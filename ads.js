@@ -5,7 +5,7 @@
  *
  * ★設定するのはこの1行だけ：下の '' の中に、公開したCSVのURLを貼り付けてください。
  */
-var SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQzZWg44H25SZVWx9SZkIMTclfX0uGrbcJw4yogKT5W6ojIeSQMEqq8MXW9L5txO0M2j733AI4a1BpT/pub?gid=1615886035&single=true&output=csv';
+var SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_VLlt-v7RSHdDR4oHjRsArAlRtW0GA_rEv0ak7K0TXsUKD_yVWrO4Ime6hE3v5w/pub?gid=2019101451&single=true&output=csv';
 
 (function () {
   var CACHE_KEY = 'kibityu_ads_csv_v1';
